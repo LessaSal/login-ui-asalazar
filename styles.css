@@ -2,23 +2,73 @@
   border: 1px solid blue;
 }
 
+.css-gradient{
+	/*start ------------*/
+	background: -webkit-gradient(linear, left bottom, right top, color-stop(0, #f0ffff), color-stop(0, #f0ffff), color-stop(0, #f0ffff), color-stop(0, #f0ffff), color-stop(0, #f0ffff), color-stop(1, #e0c3c7), color-stop(1, #e0c3c7), color-stop(1, #e0c3c7), color-stop(1, #e0c3c7), color-stop(1, #e0c3c7), color-stop(1, #e0c3c7));
+	background: -moz-linear-gradient(45deg, #f0ffff 0%, #f0ffff 0%, #f0ffff 0%, #f0ffff 0%, #f0ffff 0%, #e0c3c7 100%, #e0c3c7 100%, #e0c3c7 100%, #e0c3c7 100%, #e0c3c7 100%, #e0c3c7 100%);
+	background: -webkit-linear-gradient(45deg,  #f0ffff 0%, #f0ffff 0%, #f0ffff 0%, #f0ffff 0%, #f0ffff 0%, #e0c3c7 100%, #e0c3c7 100%, #e0c3c7 100%, #e0c3c7 100%, #e0c3c7 100%, #e0c3c7 100%);
+	background: -o-linear-gradient(45deg,  #f0ffff 0%, #f0ffff 0%, #f0ffff 0%, #f0ffff 0%, #f0ffff 0%, #e0c3c7 100%, #e0c3c7 100%, #e0c3c7 100%, #e0c3c7 100%, #e0c3c7 100%, #e0c3c7 100%);
+	background: -ms-linear-gradient(45deg,  #f0ffff 0%, #f0ffff 0%, #f0ffff 0%, #f0ffff 0%, #f0ffff 0%, #e0c3c7 100%, #e0c3c7 100%, #e0c3c7 100%, #e0c3c7 100%, #e0c3c7 100%, #e0c3c7 100%);
+	background: linear-gradient(45deg,  #f0ffff 0%, #f0ffff 0%, #f0ffff 0%, #f0ffff 0%, #f0ffff 0%, #e0c3c7 100%, #e0c3c7 100%, #e0c3c7 100%, #e0c3c7 100%, #e0c3c7 100%, #e0c3c7 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f0ffff', endColorstr='#e0c3c7', gradientType=1);
+}
+
 body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 98vh;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(240, 255, 255);
+  width: 75vw;
+  height: 35vw;
+  min-width: 400px;
+  min-height: 300px;
+  border-radius: 40px;
+  border: 2px solid #90d4d1;
+  box-shadow: 5px 5px 50px #0e2e2c;
 }
 
 .login-card {
-  background-color: aqua;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-evenly;
   flex-direction: column;
+  align-items: center;
   width: 50vw;
+  min-width: fit-content;
+}
+
+h1 {
+  color: #5E0B15;
+  font-size: 60px;
+
 }
 
 .input-div {
   display: flex;
-  
+  flex-direction: column;
 }
+
+.cat {
+  display: flex;
+  width: auto;
+}
+
+input {
+  background-color: #ecd0d3;
+  width: 250px;
+  height: 30px;
+}
+ button {
+  background-color: #276965;
+  color: white;
+  width: 90px;
+  height: 40px;
+  border: 2px solid #90d4d1;
+  border-radius: 20px;
+  box-shadow: 2px 3px 10px #0e2e2c;
+ }
