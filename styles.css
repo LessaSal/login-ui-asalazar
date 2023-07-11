@@ -1,6 +1,3 @@
-.coder-box {
-  border: 1px solid blue;
-}
 
 .css-gradient{
 	/*start ------------*/
@@ -24,8 +21,8 @@ body {
   display: flex;
   justify-content: space-between;
   background-color: rgb(240, 255, 255);
-  width: 75vw;
-  height: 35vw;
+  width: 65vw;
+  height: 30vw;
   min-width: 400px;
   min-height: 300px;
   border-radius: 40px;
@@ -39,36 +36,99 @@ body {
   flex-direction: column;
   align-items: center;
   width: 50vw;
-  min-width: fit-content;
+  min-width: 300px;
+  min-height: 300px; 
+}
+
+.cat { 
+  display: flex;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  min-width: 100px;
 }
 
 h1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   color: #5E0B15;
-  font-size: 60px;
+  font-size: 70px;
+  font-family: Dancing Script;
+  margin-top: 2vh;
+  margin-bottom: 1vh;
+  border-bottom: 2px solid #276965;
+  padding-bottom: 7px;
+}
 
+.cat-icon {
+  min-height: 40px;
 }
 
 .input-div {
   display: flex;
   flex-direction: column;
-}
-
-.cat {
-  display: flex;
-  width: auto;
+  justify-content: space-between;
+  height: 11vh;
 }
 
 input {
   background-color: #ecd0d3;
-  width: 250px;
-  height: 30px;
+  width: 300px;
+  height: 35px;
+  min-height: 0px;
+  border: 2px solid #276965;
+  border-radius: 5px;
+  font-family: Ysabeau Infant;
 }
+
+input:hover {
+  background-color: #eedfe1;
+}
+
+.username-password {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 3vw;
+  min-height: 40px;
+ }
+
+.login-info {
+  color:#81333d;
+  font-family: Ysabeau Infant;
+}
+
+.login-info:hover {
+  color: #90d4d1;
+ }
+
+ .login-info:active {
+  color: #5E0B15;
+ }
+
  button {
   background-color: #276965;
   color: white;
-  width: 90px;
+  width: 150px;
   height: 40px;
   border: 2px solid #90d4d1;
   border-radius: 20px;
   box-shadow: 2px 3px 10px #0e2e2c;
+ }
+
+button:hover {
+  background-color: #559e99;
+}
+
+button:focus {
+  background-color: #90bdba;
+}
+ 
+
+.cat-gif {
+  display: flex;
+  align-items: flex-start;
+  width: 20vw;
+  min-width: 400px;
+  min-height: 300px;
  }

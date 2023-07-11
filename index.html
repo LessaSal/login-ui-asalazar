@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="styles.css" rel="stylesheet">
     <title> Login UI Project </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Ysabeau+Infant:ital@0;1&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8299ae89f2.js" crossorigin="anonymous"></script>
   </head>
   <body class="css-gradient">
     <div class="card">
@@ -12,25 +16,18 @@
         <h1>
           Sign In
         </h1>
-        <!-- <h2>
-          username
-        </h2> -->
-        <div class="input-div-username">
+        <div class="cat-icon">
+          <i class="fa-solid fa-cat fa-2xl" style="color: #540b15;"></i>
+        </div>
+        <div class="input-div">
           <input type="text" placeholder="User Name" required></input>
+          <input type="password" placeholder="Password" required></input>
         </div>
-        <!-- <h2>
-          password
-        </h2> -->
-        <div class="input-div-password">
-          <input type="password" placeholder="Password" required>
-        </div>
-        <div class="forgot-username">
-          <a href="">
+        <div class="username-password">
+          <a class="login-info" href="">
             Forgot Username?
           </a>
-          <br>
-          <br>
-          <a href="">
+          <a class="login-info" href="">
             Forgot Password?
           </a>
         </div>
@@ -38,10 +35,13 @@
           Submit
         </button>
       </div>
-      <div class= "cat" >
-        <img src="alvan-nee-ZCHj_2lJP00-unsplash.jpg">
-      </div>
+      <img class="cat" src="media/alvan-nee-ZCHj_2lJP00-unsplash.jpg" alt="cat-picture">
     </div>
-    
+    <!--
+      <div class="cat-gif">
+      <img src="media/giphy-cat.gif" alt="walking cat gif">
+      <i class="fa-solid fa-paw fa-sm" style="color: #ecd0d3;"></i>
+    </div>
+    -->
   </body>
 </html>
